@@ -55,7 +55,7 @@ end
 {% tabs %}
 {% tab title="index.html.erb" %}
 ```markup
-<div data-controller="example">
+<div>
   <input type="text" data-reflex-permanent
     data-reflex="input->Example#updateValue">
   <p>The value is: <%= @value %>.</p>
